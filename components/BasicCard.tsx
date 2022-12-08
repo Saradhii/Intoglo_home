@@ -12,7 +12,7 @@ export default function BasicCard({ title, description, imageUrl }: BasicCardPro
     <Card>
       <NextImage src={imageUrl} width={128} height={128} alt={title} />
       <Title>{title}</Title>
-      <Description>{description}</Description>
+      {/* <Description>{description}</Description> */}
     </Card>
   );
 }

@@ -62,8 +62,8 @@ export default function Homepage({ posts }: InferGetStaticPropsType<typeof getSt
           {/* <FeaturesGallery /> */}
           {/* <Features /> */}
           <Testimonials />
-          <AboutUs />
           <Partners />
+          <AboutUs />
         </DarkerBackgroundContainer>
       </HomepageWrapper>
     </>

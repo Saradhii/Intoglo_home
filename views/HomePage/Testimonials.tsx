@@ -41,7 +41,7 @@ const TESTIMONIALS = [
     },
   },
   {
-    companyLogoUrl: '/testimonials/abc.svg',
+    companyLogoUrl: 'https://www.globalbees.com/assets/img/gb-logo.svg',
     content: `Your services are great. Quick response in RFQ is appreciable. Understanding the requirement from us & attention to details are best in Intoglo.`,
     author: {
       name: 'Aslam Pasha',
@@ -107,8 +107,8 @@ export default function Testimonials() {
 
 const TestimonialsWrapper = styled(Container)`
   position: relative;
-  margin-top:-60px;
-
+  margin-top:-130px;
+  margin-bottom:-50px;
   .swiper-button-prev,
   .swiper-button-next {
     color: rgb(var(--secondary));
