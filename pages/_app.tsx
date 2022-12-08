@@ -19,7 +19,9 @@ import WaveCta from 'components/WaveCta';
 import { NewsletterModalContextProvider, useNewsletterModalContext } from 'contexts/newsletter-modal.context';
 import { NavItems } from 'types';
 
-const navItems: NavItems = [{ title: 'Contact', href: '/#contact' }];
+const navItems: NavItems = [
+{ title: 'Contact', href: '/#contact' },
+];
 
 function MyApp({ Component, pageProps }: AppProps) {
   return (

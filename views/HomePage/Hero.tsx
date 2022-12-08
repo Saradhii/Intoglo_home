@@ -18,11 +18,11 @@ export default function Hero() {
         {/* <CustomOverTitle>the coolest, saas product you have ever seen</CustomOverTitle> */}
         <Heading>Fast, Simple and Reliable Cross Border Logistics Platform</Heading>
         <Description>
-          Intoglo is the cross-border logistics platform you've been waiting for. We combine modern technology, robust processes, workflow
+          Intoglo is the cross-border logistics platform you've been waiting for.<br></br><br></br>We combine modern technology, robust processes, workflow
           automation and expert help to provide a friction-free experience.
         </Description>
         <CustomButtonGroup>
-          <NextLink href="requestquote" passHref>
+          <NextLink href="#contact" passHref>
             <Button>
               Request quote <span>&rarr;</span>
             </Button>
@@ -85,7 +85,7 @@ const ImageContainer = styled.div`
 `;
 
 const Description = styled.p`
-  font-size: 1.8rem;
+  font-size: 1.7rem;
   opacity: 0.8;
   line-height: 1.6;
 

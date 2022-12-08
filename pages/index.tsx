@@ -6,6 +6,7 @@ import BasicSection from 'components/BasicSection';
 import { EnvVars } from 'env';
 import { getAllPosts } from 'utils/postsFetcher';
 import Cta from 'views/HomePage/Cta';
+import AboutUs from 'views/HomePage/AboutUs'
 import Features from 'views/HomePage/Features';
 import FeaturesGallery from 'views/HomePage/FeaturesGallery';
 import Hero from 'views/HomePage/Hero';
@@ -22,6 +23,7 @@ export default function Homepage({ posts }: InferGetStaticPropsType<typeof getSt
           name="description"
           content="Tempor nostrud velit fugiat nostrud duis incididunt Lorem deserunt est tempor aute dolor ad elit."
         />
+        <link rel="icon" href="https://ik.imagekit.io/qtf62wap9/es/static/u/intoglo.com/images/favicon/original/intoglo_favicon.png" />
       </Head>
       <HomepageWrapper>
         <WhiteBackgroundContainer>
@@ -32,36 +34,35 @@ export default function Homepage({ posts }: InferGetStaticPropsType<typeof getSt
             overTitle="End-to-end Logistics planning"
           >
             <p>
-              Intoglo is the single point of contact for your cross-border logistics needs.
               {/* <Link href="/help-center">Possimus ullam velit rem itaque consectetur, in distinctio?</Link>  */}
               Intoglo’s deep understanding of the complexities and inefficiencies in the cross-border journey, as well as the pain points
               faced by the exporters and importers today, has driven them to shape their solutions, product and technology to perfectly meet
               the needs of their customers.
             </p>
           </BasicSection>
-          <BasicSection
+          {/* <BasicSection
             imageUrl="/demo-illustration-6.jpg"
             title="Intoglo is the single point of contact for your cross-border logistics needs."
             overTitle="Intoglo"
             reversed
-          >
-            <p>
+          > */}
+            {/* <p>
               Intoglo’s unique solution helps to overcome the challenges many global shippers face, including lack of knowledge of global
               market trends, export regulations, documentation and the complexities in cross-border trade.
-              {/* <strong>voluptate quo deleniti animi laboriosam</strong>. Possimus ullam velit rem itaque consectetur, in distinctio? */}
-            </p>
+            </p> */}
             {/* <ul>
               <li>Professional point 1</li>
               <li>Professional remark 2</li>
               <li>Professional feature 3</li>
             </ul> */}
-          </BasicSection>
+          {/* </BasicSection> */}
         </WhiteBackgroundContainer>
         <DarkerBackgroundContainer>
           <Cta />
           {/* <FeaturesGallery /> */}
-          <Features />
+          {/* <Features /> */}
           <Testimonials />
+          <AboutUs />
           <Partners />
         </DarkerBackgroundContainer>
       </HomepageWrapper>
@@ -71,7 +72,7 @@ export default function Homepage({ posts }: InferGetStaticPropsType<typeof getSt
 
 const HomepageWrapper = styled.div`
   & > :last-child {
-    margin-bottom: 15rem;
+    margin-bottom: 10rem;
   }
 `;
 

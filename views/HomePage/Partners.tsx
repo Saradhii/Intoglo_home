@@ -46,7 +46,6 @@ const CLIENTS_LOGOS = [
   'https://uca920ba930939e3f5564e109d3b.previews.dropboxusercontent.com/p/thumb/ABsnkgRT4wKy8a6s7CPMBxwyDqRUT0XsRuFNbW90I3BXGHMAT_U75KddITMn4gZW8VWAKnSonk_C8BK476FE-v_YPkEeIZpueKVRE-Czhm69UmZJNTIZpHk2o4tfCjJ8OvnmdTSrB-KXqPdBuM0IOkXtwVtZlSzV7K3WuNDl1tY5PtSCvxQlhCAmWXlEZXQJmNm0kaS5ZnrnaW85Co45fIt8O7X9r635PKZq_yqxP07T2r0wuioIJQXZUdmPXjRASo9D-IV8X2nsFfyVlD1ahENCWh85ClsbK-FsVOY4a3n-hj1kysfVmtv8b7uXbyTMvrA1EWOUv1aOq-0HYXQcmpXxuOqs22Baif36IzGsu-lyDO7ySv36EZEC2x6KpyyV464/p.png',
   'https://uc1fd99092b60dac32caf11ab6c2.previews.dropboxusercontent.com/p/thumb/ABuCEcBhmS_sgk81FAYCHloKy3tgHhChEOt8X1K4JjXJ7JBv_puvf642blupOxBx3ycbKUndyjAoBKdCQYBZMl3ambFp7Wz0HqfxKSCs03QhXmm-0euQK8qanE0VFplc7FzGtLyQbClNBSeMJQ1JtajjlC3ZbyFX6LfNzVqJ0Sw_igVbxbWP24s0HnAZZlI_nC5d1WSX0i6MOygZIsz4-IWKAxYOWNeacX_F7EzINTyK9g1K0RbAF80_Z2PqCiHoqGAzXod5qA4pWJO1vlmXsWeEJ_v7GbCcXkiEoDaVEvPsv5lcRgKZK790YB_VAcyjyJOmu1vmUhX_1kcrrYjOdvIDW5-i0xXDy6LkWaY4Sr3yJEHN_BaHdcTmAE7Mh4RQ6vI/p.jpeg',
   'https://uc2bb841e3254fe44f232d800576.previews.dropboxusercontent.com/p/thumb/ABvxlNYlYccwf-ml7cBEixA6qHL1RKJctmXfZwZ7cT9poIc4YxckuarFyflSueuy6kp6o3CnJLWXDj6GOefKhjVYA5P7aNliDpq6KDHNSSJNnLWs5F--SbF_OCwcAvs41_Scrt-NONBZY2QqYTHxyRNtR2QmZv9qnIA7Kv4WpWSw7XJFAQuOTSfSxACU3Ok_YYQdO8cPjXRHnQx3RWCENiC5_T3R5XjNmKSS5dp3pODy3hQIlAwPZMBMhvEhDdPVIAgsKdTln-v_a6jW71kPgi2VJQJu3uLcXgtSVKpvdHIVS9rEN9Sr5RkU8VqCt5ZPArXp0vCvvm8kH8d2l6gzzvNSSnpjCiJtWLXHb-6TNXz5YdDcB8FDa3cthGdIlWI8MB0/p.jpeg',
-  '',
 ];
 
 export default function Partners() {
@@ -82,13 +81,14 @@ function normalizePartnerLogoName(logo: string) {
 }
 
 const Title = styled.h3`
-  font-size: 1.3rem;
+  font-size: 1.4rem;
   letter-spacing: 0.02em;
   line-height: 0;
   text-transform: uppercase;
   margin-bottom: 2rem;
   text-align: center;
-  opacity: 0.8;
+  margin-top:-8%;
+  font-family: var(--font);
 
   ${media('<=desktop')} {
     line-height: 1.5;
@@ -99,7 +99,6 @@ const PartnersWrapper = styled(Container)`
   .swiper-wrapper {
     will-change: transform;
     transition-timing-function: linear;
-    margin-top: 0.5rem;
     user-select: none;
     display: flex;
     place-items: center;

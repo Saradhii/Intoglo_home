@@ -9,36 +9,22 @@ import SectionTitle from 'components/SectionTitle';
 import { media } from 'utils/media';
 import Features from './Features';
 
-export default function Cta() {
+export default function About() {
   return (
     <CtaWrapper>
       <Container>
         <Stack>
-          <OverTitle>Why Intoglo?</OverTitle>
-          <SectionTitle>Intoglo is making the cross-border logistics 10x better</SectionTitle>
+          <OverTitle>Who are we ?</OverTitle>
+          <SectionTitle>About Us</SectionTitle>
           <Description>
-              Intoglo’s unique solution helps to overcome the challenges many global shippers face, including lack of knowledge of global
-              market trends, export regulations, documentation and the complexities in cross-border trade.
+            Intoglo is an ISB+IIM alums founded startup looking to disrupt the Global Cross-Border E-Commerce space using technology. We work with D2C brands selling in high ARPU global markets.
               <br></br><br></br>
-            Intoglo offers a unique solution that benefits both existing and emerging exporters/importers. Existing exporters can take
-            advantage of competitive pricing, reliable delivery and great customer service, while emerging and first-time exporters can
-            enjoy transparency, simple and friendly onboarding, assistance with documentation/customs compliance and end-to-end solutions.
+            Intoglo uses its in-house data-driven tools to aggregate logistics for global markets. Our propriety technology helps reducing shipping costs by offering brands the best available option to ship across the world.
+              <br></br><br></br>
+            About Intoglo’s Founders: The founders have been CEOs and Head of Depts. in large companies scaling multiple businesses. They have solid pedigree coming from ISB, IIM and IITs. They have phenomenal experience in building tech businesses across Unicorns.
           </Description>
-          <ButtonGroup>
-            <NextLink href="#contact" passHref>
-              <Button>
-                Request Quote<span>&rarr;</span>
-              </Button>
-            </NextLink>
-            {/* <NextLink href="#features" passHref>
-              <OutlinedButton transparent>
-                Features <span>&rarr;</span>
-              </OutlinedButton>
-            </NextLink> */}
-          </ButtonGroup>
         </Stack>
       </Container>
-      <Features/>
     </CtaWrapper>
   );
 }
@@ -51,7 +37,7 @@ const Description = styled.div`
 const Stack = styled.div`
   display: flex;
   flex-direction: column;
-  padding: 12.5rem 0;
+  padding: 8rem;
   color: rgb(var(--textSecondary));
   text-align: center;
   align-items: center;

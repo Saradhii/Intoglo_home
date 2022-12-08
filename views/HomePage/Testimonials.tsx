@@ -73,7 +73,7 @@ const TESTIMONIALS = [
 export default function Testimonials() {
   return (
     <div>
-      <Separator />
+      {/* <Separator /> */}
       <TestimonialsWrapper>
         <Swiper modules={[Navigation, Autoplay, A11y]} slidesPerView={1} autoplay={{ delay: 4000 }} centeredSlides navigation loop>
           {TESTIMONIALS.map((singleTestimonial, idx) => (
@@ -107,6 +107,7 @@ export default function Testimonials() {
 
 const TestimonialsWrapper = styled(Container)`
   position: relative;
+  margin-top:-60px;
 
   .swiper-button-prev,
   .swiper-button-next {
