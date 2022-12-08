@@ -81,15 +81,14 @@ function normalizePartnerLogoName(logo: string) {
 }
 
 const Title = styled.h3`
-  font-size: 1.4rem;
+  font-size: 1.3rem;
+  font-weight:bold;
   letter-spacing: 0.02em;
   line-height: 0;
   text-transform: uppercase;
   margin-bottom: 2rem;
   text-align: center;
-  margin-top:-8%;
-  font-family: var(--font);
-
+  opacity: 0.8;
   ${media('<=desktop')} {
     line-height: 1.5;
   }
