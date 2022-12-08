@@ -11,7 +11,7 @@ import Features from './Features';
 
 export default function About() {
   return (
-    <CtaWrapper>
+    <CtaWrapper id="aboutus">
       <Container>
         <Stack>
           <OverTitle>Who are we ?</OverTitle>

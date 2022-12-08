@@ -12,6 +12,16 @@ import { media } from 'utils/media';
 const TESTIMONIALS = [
   {
     companyLogoUrl:
+      'https://uc719df180d7d6d17185deb78878.previews.dropboxusercontent.com/p/thumb/ABuC0HNaBqZXk19ZHb_GDkpCan8Y4MSLhzB4pp1Se39FSatKqNYGgxEA-MCszseg6jIQvg8SweowImpl2DWNTJ8AuWT6JkMonJWsLwEl6qUQmO6s5rSQBHRJoHUFLu_asPJlL5z9n7yXcmmraDg7CYFyzI_FY2wqEFg0SXpYVx-TvtWFmw6s5gUMqaTi8DTFskYsOJd9l-IL9zTr2ynYZQs1SAP4lowcV1PtJ_WqK-oD6hWWXPBxvUqbNo7-O_j1W5C4ZMWr531477NTQb0QFYqPUr6RLYhMyBJ7ObUpj3s6Pi0vpyfTMsFVBpM3a9f_sCrzod-S5d_1QU2g-mhI_s7zzSEmnjg68PSm2rtDUWSERKepmnqH-x6zYDBoS4s8fv0/p.png',
+    content: `Before Intoglo, we were trying to manage our global logistics through multiple partners but we were facing a lot of operational challenges. Love how Intoglo team has helped ease the entire process for us and made it seamless. And we got better prices as well. We had perfect customer support from Apoorva and his team"`,
+    author: {
+      name: 'Keshav Mittal',
+      title: 'Hindcha, D2C Global Tea Brand',
+      avatarUrl: '/testimonials/author-photo-2.jpeg',
+    },
+  },
+  {
+    companyLogoUrl:
       'https://ucec83ae001e3d5592e7cace35b7.previews.dropboxusercontent.com/p/thumb/ABv-1_O_Qmj9a1XzFcbx6XeegNN6_-LifGBcuqEQwIX5nFsFZ2rNxarfLPqtt7bPK9wpCnh56WiCbP5nG7H82tTMeFxu1OxZUNmGtLof7hoNiUyaPdp-i7ECGqR2sZ0PPm_0YxjFXzRA5JSUCYlWrSwBM5T_qymZ_AeBy847airIMmIm0BCzwWg5BQKq-OZV7ZOOo405WEFFWm6vuhiC8XK0DyFaHAPFk2PGOD2eaTD0shLEkd9139jKo0M5_s9JMWvHSjns4VfbXCl2fuqU7H4ArOHx-S83CSbbRa_ubbXLPPw7GjrlhYUPA8nb8yFhE4t88sIuGfgLmLdKclDhYtQteLCwUf1FvAl4G9IigHuiCV3Um_xFXtkHu2cnwEQfK0c/p.png',
     content: `Intoglo team has been super helpful in bringing down our logistics costs and opening up the new global markets to us. Mrigank and Sufal have been very professional. The best part is everything is told to us transparently without any hidden costs. The team works as a part of the logistics team for you and gives extremely sincere suggestions, not just on the logistics but also other pieces. Would wish them all the best`,
     author: {
@@ -47,16 +57,6 @@ const TESTIMONIALS = [
       name: 'Aslam Pasha',
       title: 'GlobalBees',
       avatarUrl: '/testimonials/author-photo-1.jpeg',
-    },
-  },
-  {
-    companyLogoUrl:
-      'https://uc719df180d7d6d17185deb78878.previews.dropboxusercontent.com/p/thumb/ABuC0HNaBqZXk19ZHb_GDkpCan8Y4MSLhzB4pp1Se39FSatKqNYGgxEA-MCszseg6jIQvg8SweowImpl2DWNTJ8AuWT6JkMonJWsLwEl6qUQmO6s5rSQBHRJoHUFLu_asPJlL5z9n7yXcmmraDg7CYFyzI_FY2wqEFg0SXpYVx-TvtWFmw6s5gUMqaTi8DTFskYsOJd9l-IL9zTr2ynYZQs1SAP4lowcV1PtJ_WqK-oD6hWWXPBxvUqbNo7-O_j1W5C4ZMWr531477NTQb0QFYqPUr6RLYhMyBJ7ObUpj3s6Pi0vpyfTMsFVBpM3a9f_sCrzod-S5d_1QU2g-mhI_s7zzSEmnjg68PSm2rtDUWSERKepmnqH-x6zYDBoS4s8fv0/p.png',
-    content: `Before Intoglo, we were trying to manage our global logistics through multiple partners but we were facing a lot of operational challenges. Love how Intoglo team has helped ease the entire process for us and made it seamless. And we got better prices as well. We had perfect customer support from Apoorva and his team"`,
-    author: {
-      name: 'Keshav Mittal',
-      title: 'Hindcha, D2C Global Tea Brand',
-      avatarUrl: '/testimonials/author-photo-2.jpeg',
     },
   },
   {
