@@ -35,3 +35,19 @@ input[type='number']::-webkit-outer-spin-button {
   -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
   background-color: #555;
 }
+
+.testy {
+  min-height: 500px;
+  display: grid;
+  grid-template-columns: repeat(1, 100%);
+  grid-template-rows: 20% 60% 10%;
+  gap: 10px;
+}
+.testy > div {
+  /* border:1px solid blue; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 15px;
+  margin-bottom: 20px;
+}

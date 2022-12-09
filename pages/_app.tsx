@@ -20,10 +20,10 @@ import { NewsletterModalContextProvider, useNewsletterModalContext } from 'conte
 import { NavItems } from 'types';
 
 const navItems: NavItems = [
-{ title: 'Why Intoglo?', href: '/#why_intoglo' },
-{ title: 'Solutions', href: '/#solutions' },
-{ title: 'About', href: '/#aboutus' },
-{ title: 'REQUEST CALLBACK', href: '/#contact' , outlined: true},
+  { title: 'Why Intoglo?', href: '/#why_intoglo' },
+  { title: 'Solutions', href: '/#solutions' },
+  { title: 'About', href: '/#aboutus' },
+  { title: 'REQUEST CALLBACK', href: '/#contact', outlined: true },
 ];
 
 function MyApp({ Component, pageProps }: AppProps) {
@@ -47,7 +47,6 @@ function MyApp({ Component, pageProps }: AppProps) {
       <GlobalStyle />
 
       <Providers>
-        {/* <Modals /> */}
         <Navbar items={navItems} />
         <Component {...pageProps} />
         <WaveCta />
