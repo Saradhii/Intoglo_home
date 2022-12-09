@@ -6,20 +6,21 @@ import ButtonGroup from 'components/ButtonGroup';
 import Container from 'components/Container';
 import OverTitle from 'components/OverTitle';
 import SectionTitle from 'components/SectionTitle';
+import SectionTitle2 from 'components/SectionTitle2';
 import { media } from 'utils/media';
 import Features from './Features';
 
 export default function Cta() {
   return (
-    <CtaWrapper>
+    <CtaWrapper id="why_intoglo">
       <Container>
         <Stack>
           <OverTitle>Why Intoglo?</OverTitle>
           <SectionTitle>Intoglo is making the cross-border logistics 10x better</SectionTitle>
           <Description>
-              Intoglo’s unique solution helps to overcome the challenges many global shippers face, including lack of knowledge of global
-              market trends, export regulations, documentation and the complexities in cross-border trade.
-              <br></br><br></br>
+           Intoglo’s deep understanding of the complexities and inefficiencies in the cross-border journey, as well as the pain points faced by the exporters and importers today, has driven them to shape their solutions, product and technology to perfectly meet the needs of their customers.
+          </Description>
+          <Description id="solutions">
             Intoglo offers a unique solution that benefits both existing and emerging exporters/importers. Existing exporters can take
             advantage of competitive pricing, reliable delivery and great customer service, while emerging and first-time exporters can
             enjoy transparency, simple and friendly onboarding, assistance with documentation/customs compliance and end-to-end solutions.
@@ -27,7 +28,7 @@ export default function Cta() {
           <ButtonGroup>
             <NextLink href="#contact" passHref>
               <Button>
-                Request Quote<span>&rarr;</span>
+                Request Callback<span>&rarr;</span>
               </Button>
             </NextLink>
             {/* <NextLink href="#features" passHref>
@@ -36,6 +37,8 @@ export default function Cta() {
               </OutlinedButton>
             </NextLink> */}
           </ButtonGroup>
+          {/* <OverTitle>Intoglo is the single point of contact for your cross-border logistics needs.</OverTitle> */}
+          <SectionTitle2>Intoglo is the single point of contact for your cross-border logistics needs.</SectionTitle2>
         </Stack>
       </Container>
       <Features/>

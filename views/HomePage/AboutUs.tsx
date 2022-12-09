@@ -67,4 +67,6 @@ const OutlinedButton = styled(Button)`
 const CtaWrapper = styled.div`
   background: rgb(var(--secondary));
   padding-bottom:40px;
+  // border:1px solid red;
+  margin-top:-100px;
 `;

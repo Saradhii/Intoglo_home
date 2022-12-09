@@ -64,7 +64,7 @@ const FEATURES = [
 
 export default function Features() {
   return (
-    <Container id="features">
+    <Container>
       <CustomAutofitGrid>
         {FEATURES.map((singleFeature, idx) => (
           <BasicCard key={singleFeature.title} {...singleFeature} />

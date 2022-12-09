@@ -9,7 +9,7 @@ import dynamic from 'next/dynamic';
 import Head from 'next/head';
 import { ColorModeScript } from 'nextjs-color-mode';
 import React, { PropsWithChildren } from 'react';
-
+import AboutUs from 'views/HomePage/AboutUs';
 import Footer from 'components/Footer';
 import { GlobalStyle } from 'components/GlobalStyles';
 import Navbar from 'components/Navbar';
@@ -20,8 +20,10 @@ import { NewsletterModalContextProvider, useNewsletterModalContext } from 'conte
 import { NavItems } from 'types';
 
 const navItems: NavItems = [
-{ title: 'About Us', href: '/#aboutus' },
-{ title: 'Contact', href: '/#contact' },
+{ title: 'Why Intoglo?', href: '/#why_intoglo' },
+{ title: 'Solutions', href: '/#solutions' },
+{ title: 'About', href: '/#aboutus' },
+{ title: 'REQUEST CALLBACK', href: '/#contact' , outlined: true},
 ];
 
 function MyApp({ Component, pageProps }: AppProps) {
@@ -45,10 +47,11 @@ function MyApp({ Component, pageProps }: AppProps) {
       <GlobalStyle />
 
       <Providers>
-        <Modals />
+        {/* <Modals /> */}
         <Navbar items={navItems} />
         <Component {...pageProps} />
         <WaveCta />
+        <AboutUs />
       </Providers>
     </>
   );

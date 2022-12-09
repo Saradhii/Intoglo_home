@@ -19,12 +19,13 @@ export default function Hero() {
         <Heading>Fast, Simple and Reliable Cross Border Logistics Platform</Heading>
         <Description>
           Intoglo is the cross-border logistics platform you've been waiting for.<br></br><br></br>We combine modern technology, robust processes, workflow
-          automation and expert help to provide a friction-free experience.
+          automation and expert help to provide a friction-free experience.<br></br><br></br>
+          Intoglo’s unique solution helps to overcome the challenges many global shippers face, including lack of knowledge of global market trends, export regulations, documentation and the complexities in cross-border trade.
         </Description>
         <CustomButtonGroup>
           <NextLink href="#contact" passHref>
             <Button>
-              Request quote <span>&rarr;</span>
+              Request Callback <span>&rarr;</span>
             </Button>
           </NextLink>
           {/* <NextLink href="#whitepaper" passHref>
@@ -99,7 +100,7 @@ const CustomOverTitle = styled(OverTitle)`
 `;
 
 const Heading = styled.h1`
-  font-size: 6.2rem;
+  font-size: 5.7rem;
   font-weight: bold;
   line-height: 1.1;
   margin-bottom: 4rem;

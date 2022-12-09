@@ -52,7 +52,7 @@ const CLIENTS_LOGOS = [
 export default function Partners() {
   return (
     <PartnersWrapper>
-      <Title>Clients</Title>
+      <Title>brands that trust us</Title>
       <Swiper
         modules={[Autoplay]}
         slidesPerView={5}
@@ -102,7 +102,8 @@ const PartnersWrapper = styled(Container)`
     user-select: none;
     display: flex;
     place-items: center;
-    margin-top:-8px;
+    // border:1px solid red;
+    margin-bottom:-35px;
   }
 
   .swiper-slide {

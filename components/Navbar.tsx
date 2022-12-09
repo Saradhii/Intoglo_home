@@ -79,6 +79,9 @@ export default function Navbar({ items }: NavbarProps) {
           {items.map((singleItem) => (
             <NavItem key={singleItem.href} {...singleItem} />
           ))}
+          {/* <NavItemWrapper>
+            <a href="#contact">Request Callback</a>
+          </NavItemWrapper> */}
         </NavItemList>
         {/* <ColorSwitcherContainer>
           <ColorSwitcher />
@@ -92,14 +95,14 @@ export default function Navbar({ items }: NavbarProps) {
 }
 
 function NavItem({ href, title, outlined }: SingleNavItem) {
-  const { setIsModalOpened } = useNewsletterModalContext();
+  // const { setIsModalOpened } = useNewsletterModalContext();
 
-  function showNewsletterModal() {
-    setIsModalOpened(true);
-  }
+  // function showNewsletterModal() {
+  //   setIsModalOpened(true);
+  // }
 
   if (outlined) {
-    return <CustomButton onClick={showNewsletterModal}>{title}</CustomButton>;
+    return <a href={href}><CustomButton>{title}</CustomButton></a>;
   }
 
   return (

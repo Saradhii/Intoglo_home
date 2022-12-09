@@ -124,6 +124,8 @@ export default function Logo({ ...rest }) {
     //     </svg>
     // <img src="https://storage.cloudconvert.com/tasks/3a583b94-5352-4552-8277-95776b20bce7/intoglo_logo.jpg?AWSAccessKeyId=cloudconvert-production&Expires=1668245620&Signature=4S7%2FdMOA1a8znETnBGFudPjqg0Q%3D&response-content-disposition=inline%3B%20filename%3D%22intoglo_logo.jpg%22&response-content-type=image%2Fjpeg" alt="" />
     // <img src="https://ik.imagekit.io/qtf62wap9/es/static/u/intoglo.com/images/logo/original/intoglo_logo.png?tr=w-150" alt="" />
-    <NextImage src="/1075x790.gif" height="50%" width="150px" alt="Intoglo" />
+    <div style={{borderRadius: '5px', overflow: 'hidden', textAlign:'center',display:'flex',alignItems:'center',justifyContent:'center'}}>
+      <NextImage src="/1075x790.gif" height="55%" width="150px" alt="Intoglo" />
+    </div>
   );
 }

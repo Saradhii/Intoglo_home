@@ -32,16 +32,6 @@ const TESTIMONIALS = [
   },
   {
     companyLogoUrl:
-      'https://uce90923477c9b2328edcdd358d2.previews.dropboxusercontent.com/p/thumb/ABvYl0LIe75f6gTV7joDws2zpw7NnXl5TcOD2nOcpCs6bOnHi5zVTeITzgF_i5ZlEOvCQCg2VHwZ0aVy8KrgacL5pNcIMhtKjt3hHXBzkrywB2ZgBhduyzvRIHC32ubAny50aOZvAojGRiqAjKzMgpr-tNYX8pY189KyJK8iQNaQmj65NMJelsGeVLMvzviL1g0iXYiS53cK_dQldihyY6QOBrGOgZAqWSFpQhMvDZZS4QRqG9zAg6Meqse5c-vzqZuhK2SkirZsuaQwVogYBjMzXTFYQob1PgbRfRR_8_C4jZ8hf7oJsCWE-a1GWCBGFRbuEjLQZT7Gs7c9VwxIiid53bFTCx2ke9VZD-jnpZnWGNPeLizW1J23S7HZHf3vZdY/p.png',
-    content: `Working with Intoglo has been great so far, it really feels like your own team on the ground. The amount of ownership displayed has been truly inspiring. I wish you guys a lot of success and hope to recommend you to as many people as I can. Best Wishes!`,
-    author: {
-      name: 'Amogh, Supply Chain Head',
-      title: 'Ayurveda Experience',
-      avatarUrl: '/testimonials/author-photo-2.jpeg',
-    },
-  },
-  {
-    companyLogoUrl:
       'https://uca523102275d1ee3daf1059382a.previews.dropboxusercontent.com/p/thumb/ABs19hXpMn_cwyZX98g0P1JlVljbnC6gL4ZCFVO_ZH-f21ehNEfV1gGDmViiBWxiSuAHOggdLiBMpLBbo5tDvqWe3ImhWtM5T7_qP_mFsVyqPW9ZkVV89VQ12qFvlBvaXCwd8hEFkQ2n6PwQE6e7_zYrPIUXoFelsTRYCjuLrkx1SfPdD0bYGS35pPWz1MC6eYHFr-U9KVzJDYFQVtOv5yA6703poNEr8IOlDxNXt7QoczgA-N1jemTT3PAdps2PSmsusyw4ZXPE_CMKRUUWMS_JJJKo4Mgw9NmWHufcVRzBYmZXJEtUgXm_JtHC74ofHVbq33c9Sihz7kKDbcQajk9wZm_hyl15rXGLT-Cs4Tqt0v2UknP6rnIbeSUhrgvwMfo/p.jpeg',
     content: `Great service provided. A very reliable, cooperative & efficient company. Pleased with the overall service and clear communication that they provide.`,
     author: {
@@ -51,7 +41,17 @@ const TESTIMONIALS = [
     },
   },
   {
-    companyLogoUrl: 'https://www.globalbees.com/assets/img/gb-logo.svg',
+    companyLogoUrl:
+      'https://uce90923477c9b2328edcdd358d2.previews.dropboxusercontent.com/p/thumb/ABvYl0LIe75f6gTV7joDws2zpw7NnXl5TcOD2nOcpCs6bOnHi5zVTeITzgF_i5ZlEOvCQCg2VHwZ0aVy8KrgacL5pNcIMhtKjt3hHXBzkrywB2ZgBhduyzvRIHC32ubAny50aOZvAojGRiqAjKzMgpr-tNYX8pY189KyJK8iQNaQmj65NMJelsGeVLMvzviL1g0iXYiS53cK_dQldihyY6QOBrGOgZAqWSFpQhMvDZZS4QRqG9zAg6Meqse5c-vzqZuhK2SkirZsuaQwVogYBjMzXTFYQob1PgbRfRR_8_C4jZ8hf7oJsCWE-a1GWCBGFRbuEjLQZT7Gs7c9VwxIiid53bFTCx2ke9VZD-jnpZnWGNPeLizW1J23S7HZHf3vZdY/p.png',
+    content: `Working with Intoglo has been great so far, it really feels like your own team on the ground. The amount of ownership displayed has been truly inspiring. I wish you guys a lot of success and hope to recommend you to as many people as I can. Best Wishes!`,
+    author: {
+      name: 'Amogh, Supply Chain Head',
+      title: 'Ayurveda Experience',
+      avatarUrl: '/testimonials/author-photo-2.jpeg',
+    },
+  },
+  {
+    companyLogoUrl: 'https://lsvp.com/wp-content/uploads/2021/10/GlobalBees_Logo.png',
     content: `Your services are great. Quick response in RFQ is appreciable. Understanding the requirement from us & attention to details are best in Intoglo.`,
     author: {
       name: 'Aslam Pasha',
