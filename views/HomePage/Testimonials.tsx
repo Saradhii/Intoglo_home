@@ -28,7 +28,7 @@ const TESTIMONIALS = [
     },
   },
   {
-    companyLogoUrl: 'Cavinkare.jpg',
+    companyLogoUrl: 'cavinkare.jpg',
     content: `Great service provided. A very reliable, cooperative & efficient company. Pleased with the overall service and clear communication that they provide.`,
     author: {
       name: 'Nidhi Gupta',
