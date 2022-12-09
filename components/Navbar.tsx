@@ -3,7 +3,7 @@ import NextLink from 'next/link';
 import { useRouter } from 'next/router';
 import React, { useRef, useState } from 'react';
 import styled from 'styled-components';
-import { useNewsletterModalContext } from 'contexts/newsletter-modal.context';
+// import { useNewsletterModalContext } from 'contexts/newsletter-modal.context';
 import { ScrollPositionEffectProps, useScrollPosition } from 'hooks/useScrollPosition';
 import { NavItems, SingleNavItem } from 'types';
 import { media } from 'utils/media';
@@ -13,7 +13,7 @@ import Drawer from './Drawer';
 import { HamburgerIcon } from './HamburgerIcon';
 import Logo from './Logo';
 
-const ColorSwitcher = dynamic(() => import('../components/ColorSwitcher'), { ssr: false });
+// const ColorSwitcher = dynamic(() => import('../components/ColorSwitcher'), { ssr: false });
 
 type NavbarProps = { items: NavItems };
 type ScrollingDirections = 'up' | 'down' | 'none';
@@ -102,7 +102,11 @@ function NavItem({ href, title, outlined }: SingleNavItem) {
   // }
 
   if (outlined) {
-    return <a href={href}><CustomButton>{title}</CustomButton></a>;
+    return (
+      <a href={href}>
+        <CustomButton>{title}</CustomButton>
+      </a>
+    );
   }
 
   return (
