@@ -34,12 +34,12 @@ export default function Homepage({ posts }: InferGetStaticPropsType<typeof getSt
             title="Intoglo is the single point of contact for your cross-border logistics needs."
             overTitle="End-to-end Logistics planning"
           > */}
-            {/* <p> */}
-              {/* <Link href="/help-center">Possimus ullam velit rem itaque consectetur, in distinctio?</Link>  */}
-              {/* Intoglo’s deep understanding of the complexities and inefficiencies in the cross-border journey, as well as the pain points
+          {/* <p> */}
+          {/* <Link href="/help-center">Possimus ullam velit rem itaque consectetur, in distinctio?</Link>  */}
+          {/* Intoglo’s deep understanding of the complexities and inefficiencies in the cross-border journey, as well as the pain points
               faced by the exporters and importers today, has driven them to shape their solutions, product and technology to perfectly meet
               the needs of their customers. */}
-            {/* </p>
+          {/* </p>
           </BasicSection> */}
           {/* <BasicSection
             imageUrl="/demo-illustration-6.jpg"
@@ -47,11 +47,11 @@ export default function Homepage({ posts }: InferGetStaticPropsType<typeof getSt
             overTitle="Intoglo"
             reversed
           > */}
-            {/* <p>
+          {/* <p>
               Intoglo’s unique solution helps to overcome the challenges many global shippers face, including lack of knowledge of global
               market trends, export regulations, documentation and the complexities in cross-border trade.
             </p> */}
-            {/* <ul>
+          {/* <ul>
               <li>Professional point 1</li>
               <li>Professional remark 2</li>
               <li>Professional feature 3</li>
@@ -61,7 +61,7 @@ export default function Homepage({ posts }: InferGetStaticPropsType<typeof getSt
         <DarkerBackgroundContainer>
           <Cta />
           {/* <FeaturesGallery /> */}
-          {/* <Features /> */}
+          <Features />
           <Testimonials />
         </DarkerBackgroundContainer>
       </HomepageWrapper>

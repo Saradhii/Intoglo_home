@@ -20,9 +20,9 @@ import { NewsletterModalContextProvider, useNewsletterModalContext } from 'conte
 import { NavItems } from 'types';
 
 const navItems: NavItems = [
-  { title: 'Why Intoglo?', href: '/#why_intoglo' },
+  { title: 'Why Intoglo', href: '/#why_intoglo' },
   { title: 'Solutions', href: '/#solutions' },
-  { title: 'About', href: '/#aboutus' },
+  { title: 'About', href: '/#about' },
   { title: 'REQUEST CALLBACK', href: '/#contact', outlined: true },
 ];
 

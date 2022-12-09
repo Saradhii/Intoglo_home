@@ -15,12 +15,14 @@ export default function Cta() {
     <CtaWrapper id="why_intoglo">
       <Container>
         <Stack>
-          <OverTitle>Why Intoglo?</OverTitle>
+          <OverTitle>Why Intoglo</OverTitle>
           <SectionTitle>Intoglo is making the cross-border logistics 10x better</SectionTitle>
           <Description>
-           Intoglo’s deep understanding of the complexities and inefficiencies in the cross-border journey, as well as the pain points faced by the exporters and importers today, has driven them to shape their solutions, product and technology to perfectly meet the needs of their customers.
+            Intoglo’s deep understanding of the complexities and inefficiencies in the cross-border journey, as well as the pain points
+            faced by the exporters and importers today, has driven them to shape their solutions, product and technology to perfectly meet
+            the needs of their customers.
           </Description>
-          <Description id="solutions">
+          <Description>
             Intoglo offers a unique solution that benefits both existing and emerging exporters/importers. Existing exporters can take
             advantage of competitive pricing, reliable delivery and great customer service, while emerging and first-time exporters can
             enjoy transparency, simple and friendly onboarding, assistance with documentation/customs compliance and end-to-end solutions.
@@ -38,10 +40,13 @@ export default function Cta() {
             </NextLink> */}
           </ButtonGroup>
           {/* <OverTitle>Intoglo is the single point of contact for your cross-border logistics needs.</OverTitle> */}
-          <SectionTitle2>Intoglo is the single point of contact for your cross-border logistics needs.</SectionTitle2>
         </Stack>
+        {/* <Stack>
+          <OverTitle>Solutions</OverTitle>
+          <SectionTitle2>Intoglo is the single point of contact for your cross-border logistics needs.</SectionTitle2>
+          <Features />
+        </Stack> */}
       </Container>
-      <Features/>
     </CtaWrapper>
   );
 }
@@ -59,7 +64,7 @@ const Stack = styled.div`
   text-align: center;
   align-items: center;
   justify-content: center;
-  padding-bottom:20px;
+  padding-bottom: 20px;
 
   & > *:not(:first-child) {
     max-width: 80%;
@@ -83,5 +88,5 @@ const OutlinedButton = styled(Button)`
 
 const CtaWrapper = styled.div`
   background: rgb(var(--secondary));
-  padding-bottom:40px;
+  padding-bottom: 40px;
 `;

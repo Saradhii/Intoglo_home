@@ -1,11 +1,9 @@
-import NextImage from 'next/image';
 import React from 'react';
 import styled from 'styled-components';
-
 import { A11y, Autoplay, Navigation } from 'swiper';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import Container from 'components/Container';
-import Separator from 'components/Separator';
+
 import { media } from 'utils/media';
 
 const TESTIMONIALS = [
@@ -68,43 +66,48 @@ const TESTIMONIALS = [
 export default function Testimonials() {
   return (
     <div>
-      {/* <Separator /> */}
-      <TestimonialsWrapper>
-        <Swiper modules={[Navigation, Autoplay, A11y]} slidesPerView={1} autoplay={{ delay: 4000 }} centeredSlides navigation loop>
-          {TESTIMONIALS.map((singleTestimonial, idx) => (
-            <SwiperSlide key={idx}>
-              <TestimonialCard>
-                <div className="testy">
-                  <div>
-                    <img
-                      src={'client_logos/' + singleTestimonial.companyLogoUrl}
-                      alt={`${singleTestimonial.author.title}'s company logo`}
-                    />
-                  </div>
-                  <div>
-                    <Content>“{singleTestimonial.content}”</Content>
-                  </div>
-                  <div>
-                    <AuthorContainer>
-                      <AuthorContent>
-                        <AuthorName>{singleTestimonial.author.name}</AuthorName>
-                        <AuthorTitle>{singleTestimonial.author.title}</AuthorTitle>
-                      </AuthorContent>
-                    </AuthorContainer>
-                  </div>
-                </div>
-              </TestimonialCard>
-            </SwiperSlide>
-          ))}
-        </Swiper>
-      </TestimonialsWrapper>
+      <Container>
+        <Stack>
+          <SectionTitle3>Testimonials</SectionTitle3>
+          <Description>See what people say about Intoglo Private Limited</Description>
+          <TestimonialsWrapper>
+            <Swiper modules={[Navigation, Autoplay, A11y]} slidesPerView={1} autoplay={{ delay: 4000 }} centeredSlides navigation loop>
+              {TESTIMONIALS.map((singleTestimonial, idx) => (
+                <SwiperSlide key={idx}>
+                  <TestimonialCard>
+                    <div className="testy">
+                      <div>
+                        <img
+                          src={'client_logos/' + singleTestimonial.companyLogoUrl}
+                          alt={`${singleTestimonial.author.title}'s company logo`}
+                        />
+                      </div>
+                      <div>
+                        <Content>“{singleTestimonial.content}”</Content>
+                      </div>
+                      <div>
+                        <AuthorContainer>
+                          <AuthorContent>
+                            <AuthorName>{singleTestimonial.author.name}</AuthorName>
+                            <AuthorTitle>{singleTestimonial.author.title}</AuthorTitle>
+                          </AuthorContent>
+                        </AuthorContainer>
+                      </div>
+                    </div>
+                  </TestimonialCard>
+                </SwiperSlide>
+              ))}
+            </Swiper>
+          </TestimonialsWrapper>
+        </Stack>
+      </Container>
     </div>
   );
 }
 
 const TestimonialsWrapper = styled(Container)`
   position: relative;
-  margin-top: -130px;
+  margin-top: -80px;
   margin-bottom: -50px;
   .swiper-button-prev,
   .swiper-button-next {
@@ -175,4 +178,45 @@ const AuthorImageContainer = styled.div`
   border-radius: 10rem;
   margin-right: 1rem;
   overflow: hidden;
+`;
+
+const Stack = styled.div`
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 20px;
+
+  & > *:not(:first-child) {
+    max-width: 80%;
+    margin-top: 4rem;
+  }
+
+  ${media('<=tablet')} {
+    text-align: center;
+
+    & > *:not(:first-child) {
+      max-width: 100%;
+      margin-top: 2rem;
+    }
+  }
+`;
+
+const Description = styled.div`
+  font-size: 1.7rem;
+`;
+
+const SectionTitle3 = styled.div`
+  font-size: 3.2rem;
+  font-weight: bold;
+  line-height: 1.1;
+  letter-spacing: -0.03em;
+  text-align: center;
+  margin-bottom: -30px;
+  margin-top: -50px;
+
+  ${media('<=tablet')} {
+    font-size: 2.6rem;
+  }
 `;

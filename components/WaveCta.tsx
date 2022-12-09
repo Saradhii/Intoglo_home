@@ -23,14 +23,15 @@ export default function WaveCta() {
         <Container>
           <Title>Connect With Us</Title>
           <Description>
-            Intoglo’s solution is simple, efficient and cost-effective. We look forward to discussing your export needs. Get in touch with
-            us now
+            Intoglo’s solution is simple, efficient and cost-effective. We look forward to discussing your export needs.
           </Description>
           <Description>
+            Get in touch with us now{' '}
             <u>
               <a href="mailto:contact@intoglo.com">contact@intoglo.com</a>
             </u>
           </Description>
+          <Description></Description>
 
           {/* <CustomButtonGroup>
             <Button onClick={() => setIsModalOpened(true)}>
@@ -49,10 +50,10 @@ export default function WaveCta() {
 }
 
 const CtaWrapper = styled.div`
-  background: rgb(var(--secondary));
+  background: #1a202c;
   margin-top: -10rem;
-  padding-top:15rem;
-  padding-bottom: 10rem;
+  padding-top: 10rem;
+  padding-bottom: 16rem;
   // border:1px solid red;
 
   ${media('<=tablet')} {
@@ -81,7 +82,7 @@ const Description = styled.div`
   letter-spacing: -0.03em;
   text-align: center;
   color: rgb(var(--textSecondary));
-  margin-bottom: 2rem;
+  margin-bottom: 3rem;
 
   ${media('<=tablet')} {
     font-size: 1.6rem;

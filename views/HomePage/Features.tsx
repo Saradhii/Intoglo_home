@@ -3,6 +3,7 @@ import styled from 'styled-components';
 import AutofitGrid from 'components/AutofitGrid';
 import BasicCard from 'components/BasicCard';
 import Container from 'components/Container';
+import SectionTitle2 from 'components/SectionTitle2';
 import { media } from 'utils/media';
 
 const FEATURES = [
@@ -64,7 +65,8 @@ const FEATURES = [
 
 export default function Features() {
   return (
-    <Container>
+    <Container id="solutions">
+      <SectionTitle2>Intoglo is the single point of contact for your cross-border logistics needs.</SectionTitle2>
       <CustomAutofitGrid>
         {FEATURES.map((singleFeature, idx) => (
           <BasicCard key={singleFeature.title} {...singleFeature} />
@@ -75,10 +77,10 @@ export default function Features() {
 }
 
 const CustomAutofitGrid = styled(AutofitGrid)`
-  --autofit-grid-item-size: 40rem;
+  --autofit-grid-item-size: 30rem;
 
   ${media('<=tablet')} {
-    --autofit-grid-item-size: 30rem;
+    --autofit-grid-item-size: 25rem;
   }
 
   ${media('<=phone')} {

@@ -7,7 +7,7 @@ const SectionTitle2 = styled.div`
   line-height: 1.1;
   letter-spacing: -0.03em;
   text-align: center;
-  margin-bottom:40px;
+  margin-bottom: 40px;
 
   ${media('<=tablet')} {
     font-size: 2.6rem;

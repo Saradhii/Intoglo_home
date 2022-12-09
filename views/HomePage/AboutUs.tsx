@@ -11,17 +11,22 @@ import Features from './Features';
 
 export default function About() {
   return (
-    <CtaWrapper id="aboutus">
+    <CtaWrapper id="about">
       <Container>
         <Stack>
-          <OverTitle>Who are we ?</OverTitle>
-          <SectionTitle>About Us</SectionTitle>
+          <OverTitle>Who are we</OverTitle>
+          <SectionTitle>About</SectionTitle>
           <Description>
-            Intoglo is an ISB+IIM alums founded startup looking to disrupt the Global Cross-Border E-Commerce space using technology. We work with D2C brands selling in high ARPU global markets.
-              <br></br><br></br>
-            Intoglo uses its in-house data-driven tools to aggregate logistics for global markets. Our propriety technology helps reducing shipping costs by offering brands the best available option to ship across the world.
-              <br></br><br></br>
-            About Intoglo’s Founders: The founders have been CEOs and Head of Depts. in large companies scaling multiple businesses. They have solid pedigree coming from ISB, IIM and IITs. They have phenomenal experience in building tech businesses across Unicorns.
+            Intoglo is an ISB+IIM alums founded startup looking to disrupt the Global Cross-Border E-Commerce space using technology. We
+            work with D2C brands selling in high ARPU global markets.
+            <br></br>
+            <br></br>
+            Intoglo uses its in-house data-driven tools to aggregate logistics for global markets. Our propriety technology helps reducing
+            shipping costs by offering brands the best available option to ship across the world.
+            <br></br>
+            <br></br>
+            About Intoglo’s Founders: The founders have been CEOs and Head of Depts. in large companies scaling multiple businesses. They
+            have solid pedigree coming from ISB, IIM and IITs. They have phenomenal experience in building tech businesses across Unicorns.
           </Description>
         </Stack>
       </Container>
@@ -42,7 +47,7 @@ const Stack = styled.div`
   text-align: center;
   align-items: center;
   justify-content: center;
-  padding-bottom:20px;
+  padding-bottom: 20px;
 
   & > *:not(:first-child) {
     max-width: 80%;
@@ -66,7 +71,7 @@ const OutlinedButton = styled(Button)`
 
 const CtaWrapper = styled.div`
   background: rgb(var(--secondary));
-  padding-bottom:40px;
+  padding-bottom: 40px;
   // border:1px solid red;
-  margin-top:-100px;
+  margin-top: -100px;
 `;
