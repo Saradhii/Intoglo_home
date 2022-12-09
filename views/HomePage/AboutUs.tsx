@@ -14,7 +14,7 @@ export default function About() {
     <CtaWrapper id="about">
       <Container>
         <Stack>
-          <OverTitle>Who are we</OverTitle>
+          <OverTitle>Who we are</OverTitle>
           <SectionTitle>About</SectionTitle>
           <Description>
             Intoglo is an ISB+IIM alums founded startup looking to disrupt the Global Cross-Border E-Commerce space using technology. We

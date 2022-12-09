@@ -213,7 +213,7 @@ const SectionTitle3 = styled.div`
   line-height: 1.1;
   letter-spacing: -0.03em;
   text-align: center;
-  margin-bottom: -30px;
+  margin-bottom: -10px;
   margin-top: -50px;
 
   ${media('<=tablet')} {

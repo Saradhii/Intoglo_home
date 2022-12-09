@@ -82,7 +82,7 @@ const PartnersWrapper = styled(Container)`
     display: flex;
     place-items: center;
     // border:1px solid red;
-    margin-bottom: -35px;
+    margin-bottom: -5px;
   }
 
   .swiper-slide {
