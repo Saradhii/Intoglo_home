@@ -1,9 +1,6 @@
-import { ColorModeStyles, useColorModeValue, useColorSwitcher } from 'nextjs-color-mode';
 import styled from 'styled-components';
 
 export default function ColorSwitcher() {
-  const { toggleTheme, colorMode } = useColorSwitcher();
-
   const sunIcon = (
     <svg width="24" height="24" viewBox="0 0 24 24" focusable="false">
       <g strokeLinejoin="round" strokeLinecap="round" strokeWidth="2" fill="none" stroke="currentColor">

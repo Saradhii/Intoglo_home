@@ -7,7 +7,7 @@ import '../styles/globals.css';
 import { AppProps } from 'next/dist/shared/lib/router/router';
 import dynamic from 'next/dynamic';
 import Head from 'next/head';
-import { ColorModeScript } from 'nextjs-color-mode';
+// import { ColorModeScript } from 'nextjs-color-mode';
 import React, { PropsWithChildren } from 'react';
 import AboutUs from 'views/HomePage/AboutUs';
 import Footer from 'components/Footer';
@@ -43,7 +43,7 @@ function MyApp({ Component, pageProps }: AppProps) {
         /> */}
         {/* <script async src="https://www.google-analytics.com/analytics.js"></script> */}
       </Head>
-      <ColorModeScript />
+
       <GlobalStyle />
 
       <Providers>
