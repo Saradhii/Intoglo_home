@@ -71,7 +71,7 @@ export default function HsSearchPage() {
   return (
     <Page title="HS Code Look Up" description="For shipments from India to United States">
       <ContactContainer>
-        <div className="w-full md:w-[80%] m-auto">
+        <div className="w-full md:w-[80%] m-auto mb-40">
           <div>
             <div className="flex  items-center justify-between m-auto w-full mb-20  md:w-[80%] lg:w-[70%] px-8 py-1 gap-2 space-x-6 shadow-md rounded-xl">
               <div className="flex items-center px-4 space-x-4 rounded-lg w-full ">
